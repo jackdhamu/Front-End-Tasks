@@ -1,0 +1,446 @@
+body{
+      font-family: Poppins;
+}
+.navbar-nav li a {
+  opacity: 0.8;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: normal;
+  color: #414141;
+  margin-right:40px;
+}
+h1{
+font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: normal;
+  color: #212121;
+  text-align: center;
+}
+.jumbotron h1{
+    text-align: left!important;
+}
+h2{
+ font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #212121;
+}
+p{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #c5c5c5;
+}
+.primary-btn
+{
+  background-color: #de3c3c!important;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.btn
+{
+  font-family: Poppins;
+  font-size: 13px!important;
+  font-weight: 500!important;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.jumbotron {
+    background-color: #fff!important;
+}
+ a{
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #212121;
+}
+.slider h5
+{
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #212121;
+}
+.question-sec h2{
+    font-size:24px;
+}
+.mycard {
+    margin: 60px;
+    box-sizing: border-box;
+     display: inline-block!important;
+}
+
+.card-text {
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #c5c5c5;
+}
+
+.secondary {
+    margin-top: 130px;
+}
+
+.banner {
+    background-image:url(../img/bitmap.png);
+    max-width: 100%;
+    
+}
+
+.banner .card-title {
+    color: #fff;
+}
+
+.carousel-caption {
+    color: black!important;
+}
+#carouselExampleIndicators ol li
+{
+    background-color:#000;
+}
+
+section
+{
+    padding: 40px 0px;
+}
+p
+{
+  font-size: 14px;
+  line-height: 1.71;
+  color: #c5c5c5;
+}
+.jumbotron p
+{
+    font-size: 16px;
+}
+.plans {
+    background-image: linear-gradient(#fff, #efefef);
+    background-image:url(../img/mask.png);
+    background-position: bottom;
+    background-size: cover;
+    padding-bottom: 200px;
+    
+}
+.mycard:hover { 
+    cursor: pointer;
+    color:#fff!important;
+    border-radius: 6px;
+  box-shadow: 0 4px 15px 0 rgba(7, 42, 68, 0.1);
+  background-color: #de3c3cdb;
+    transition: 0.3s;
+}
+.mycard:hover p{
+    color: #fff;
+}
+.mycard:hover h2{
+    color: #fff;
+}
+
+.mycard:hover img
+{
+    background-color: #000;
+}
+.mycard:hover .bg-circle-1
+{
+    display: block;
+    top:-40px;
+    left:-70px;
+}
+.mycard:hover .bg-circle-2
+{
+    display: block;
+    top:-45px;
+    right: -76px;
+}
+.price h2{
+    color: #ffaa64;
+    font-family: Poppins;
+  font-size: 32px!important;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  
+}
+.card-body h5
+{
+    font-size: 18px;
+  font-weight: 500;
+  color: #212121;
+}
+.zoom:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px 0 rgba(7, 42, 68, 0.1);
+    border-top: solid 5px #de3c3c;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    z-index: 5;
+       cursor:pointer!important;
+}
+.zoom:hover .price h2, .plans .card-footer{
+    color: #de3c3c;
+}
+.zoom:hover .card-footer a{
+    color: #de3c3c;
+    text-decoration: none;
+}
+
+footer
+{
+    margin-top: 200px;
+    clear: both;
+
+}
+.question-sec {
+    margin-top:-100px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 4px 15px 0 rgba(7, 42, 68, 0.1);
+    padding: 60px;
+}
+
+.intro-banner {
+    box-sizing: border-box;
+    padding: 0px 60px;
+}
+   
+.slider {
+    height: 100%;
+}
+
+.mycard
+{
+    overflow: hidden;
+   
+}
+.mycard .card-body
+{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.mycard .card-body img{
+    position: relative;
+    margin:10px 0px;
+}
+
+.slider-background img {
+    position: absolute;
+    
+}
+.slider-background img:nth-child(1) {
+  top:30px;
+  left: 87px;
+}
+.slider-background img:nth-child(2) {
+  top:81px;
+  left: 380px;
+}
+.slider-background img:nth-child(3) {
+  top:226px;
+  left:313px;
+}
+.slider-background img:nth-child(4) {
+  top:249px;
+  left: 0px;
+}
+
+.slider-background img:nth-child(5) {
+  top:181px;
+  right: 281px;
+}
+.slider-background img:nth-child(6) {
+   top:45px;
+  right:221px;
+}
+.slider-background img:nth-child(7) {
+ 
+  top:86px;
+  right: 0px;
+}
+.slider-background img:nth-child(8) {
+  top:309px;
+  right:0px;
+}
+
+.bg-circle-1 {
+  height: 150px;
+  width: 150px;
+  background-color: #ffaa64;
+  border-radius: 50%;
+  position:absolute;
+  top:-130px;
+  left:-130px;
+  opacity:0.5;
+  transition:ease 0.5s;
+  //display:  none;
+}
+.bg-circle-2 {
+  height: 190px;
+  width: 130px;
+  background-color: #c00000;
+  border-radius: 50%;
+  position:absolute;
+  top:-80px;
+  right:-140px;
+  opacity:0.4;
+  //display:  none;
+ transition:ease 0.5s;
+}
+
+.lead {
+  font-size: 16px!important;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  color: #c5c5c5;
+}
+
+footer a{
+     font-size: 13px;
+     color: #c5c5c5;
+     margin-left:auto;
+     margin-top: 8px;
+}
+
+
+.carousel-inner {
+    overflow:hidden;
+}
+
+.carousel-caption p{
+     font-size: 14px;
+    line-height: 1.71;
+    color: #c5c5c5;
+    margin-top: 20px;
+}
+
+.carousel-indicators li{
+     background-color: #949ea7!important;
+    border-radius: 50%!important;
+    height:5px;
+    width:5px;
+}
+
+@media only screen and (max-width: 991px) 
+{ 
+    .plans .col-md-3{
+            flex: 0 0 50%;
+            max-width: 50%;
+            margin:10px 0px;
+            box-sizing: border-box;
+        }
+    .slider .carousel-inner {
+    padding: 10px!important;
+    }
+    section {
+    padding: 20px 0px;
+}
+    
+    .secondary
+    {
+        margin-top: 0px!important;
+    }
+    .question-sec .btn {
+        margin: 10px 0px;
+    }
+}
+@media only screen and (max-width: 576px) 
+{
+      .plans .col-md-3{
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin:10px 0px;
+            box-sizing: border-box;
+        }
+}
+@media only screen and (max-width: 768px) {
+    .secondary {
+    margin-top: 0px;
+}
+    .question-sec{
+        padding: 30px;
+    }
+    
+    section 
+    {
+        padding: 5px 0px!important;
+    }   
+    .mycard
+    {
+        margin: 20px!important;
+    }
+    .question-sec 
+    {
+        padding: 30px!important;
+    }
+    
+}
+@media only screen and (max-width: 1200px) {
+  .mycard
+    {
+        margin: 30px;
+      
+    }
+   .plans .row
+    {
+        padding: 0px!important;
+       font-size: 80%!inportant;
+    }
+    .slider-background {
+   // visibility: hidden;
+    display: none;
+  }
+    .zoom h2,p{
+        font-size:80%;
+    }
+    .question-sec{
+        width:75%!important;
+    }
+    .carousel-caption{
+        width: 100%!important;
+        margin:5px;
+    }
+}
+.carousel-caption {
+    position: static!important;
+}
+.slider .carousel-inner {
+    height: 100%;padding:100px;
+}
+.carousel-indicators .active{
+    background-color: #de3c3c!important;
+}
+.plans .card-title {
+    text-transform: uppercase;
+}
